@@ -2,6 +2,11 @@ package easy;
 
 public class TreeNode {
 
+	@Override
+	public String toString() {
+		return "TreeNode [val=" + val + "]";
+	}
+
 	int val;
 	TreeNode left;
 	TreeNode right;

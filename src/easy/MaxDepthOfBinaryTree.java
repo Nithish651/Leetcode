@@ -16,7 +16,7 @@ public class MaxDepthOfBinaryTree {
 		root.left = node1;
 		root.right = node2;
 		
-		System.out.println(maxDepth(new TreeNode()));
+		System.out.println(maxDepth(root));
 	}
 
 	public static int maxDepth(TreeNode root) {
