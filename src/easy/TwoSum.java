@@ -8,9 +8,9 @@ public class TwoSum {
 	public static void main(String[] args) {
 		
 
-		int [] nums = {3,3};
+		int [] nums = {0,4,8,-6,5,2,9};
 		
-		int target = 6;
+		int target = 4;
 		int [] result = new int[2];
 		
 		Map<Integer,Integer> indMap = new HashMap<>();
