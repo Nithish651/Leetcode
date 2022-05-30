@@ -22,7 +22,7 @@ public class TwoSum {
 	}
 
 	public static void main(String[] args) {
-		int [] nums = {3,3};
+		int [] nums = {3,2,3};
 		int target = 6;
 		int [] result = twoSum(nums,target);
 		for(int n : result) {
