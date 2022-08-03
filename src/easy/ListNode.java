@@ -16,6 +16,11 @@ public class ListNode {
 		this.setNext(next);
 	}
 
+	@Override
+	public String toString() {
+		return "ListNode [val=" + val + ", next=" + next + "]";
+	}
+
 	public ListNode getNext() {
 		return next;
 	}
